@@ -1,3 +1,11 @@
+#In this task you will given a word and you must find the longest subword of this word that is also a palindrome.
+
+#For example if the given word is abbba then the answer is abbba. If the given word is abcbcabbacba then the answer is bcabbacb.
+
+
+
+
+
 def longestPalSubstr(string):
     n = len(string) # calculating size of string
     if (n < 2):
